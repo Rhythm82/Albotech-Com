@@ -5,7 +5,7 @@ import { FiArrowDown, FiArrowLeft, FiArrowRight, FiArrowUpRight, FiCheck, FiDown
 import { motion } from 'framer-motion'
 import './App.css'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
+const API = import.meta.env.VITE_API_URL || 'https://albotech-com.onrender.com/api'
 const prettyBytes = (bytes) => bytes > 1024 * 1024 ? `${(bytes / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`
 
 function Brand({ light = false }) {
